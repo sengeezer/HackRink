@@ -99,6 +99,7 @@ open samples/jquery-example.html
 - The samples are intentionally small so they can behave more like REPL probes than production code.
 - Some dependencies here are intentionally older or legacy tools, which makes the repo useful for quick compatibility checks and API experiments.
 - `npm test` is currently a placeholder and does not run an automated test suite.
+- Yes, this is all based on a few GitHub Copilot prompts and minimal elbow grease. Get with the program. :)
 
 ## License
 
