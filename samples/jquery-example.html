@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jQuery Example</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    .active { color: #0b6bcb; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>jQuery Example</h1>
+  <ul id="tasks">
+    <li>Write code</li>
+    <li>Run sample</li>
+    <li>Review output</li>
+  </ul>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#tasks li").each(function (index) {
+        $(this).text(`${index + 1}. ${$(this).text()}`);
+      });
+
+      $("#tasks li:first").addClass("active");
+    });
+  </script>
+</body>
+</html>
