@@ -1,7 +1,7 @@
 
 # Hackrink
 
-Hackrink is a personal Node.js playground designed to replicate the feel of HackerRank's JavaScript REPL locally. The repository keeps a pinned runtime, a fixed dependency set, and a collection of small runnable examples so it is easy to probe language behavior, compare library APIs, and experiment in a controlled environment that is close to an online coding sandbox.
+Hackrink is a personal Node.js playground designed to replicate the utility of HackerRank's JavaScript REPL locally. The repository keeps a pinned runtime, a fixed dependency set, and a collection of small runnable examples so it is easy to probe language behavior, compare library APIs, and experiment in a controlled environment that is close to an online coding sandbox.
 
 ## Purpose
 
